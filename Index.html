@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoMaquetas | Proyecto Estudiantil</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f7f3;
+}
+
+header{
+background:#2E7D32;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+font-size:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+.hero{
+height:500px;
+background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url("https://images.unsplash.com/photo-1497366754035-f200968a6e72");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:25px;
+}
+
+.boton{
+background:#43A047;
+padding:15px 30px;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:70px 10%;
+}
+
+.titulo{
+text-align:center;
+font-size:35px;
+color:#2E7D32;
+margin-bottom:40px;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+background:white;
+width:280px;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+color:#2E7D32;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.galeria img{
+width:100%;
+border-radius:12px;
+}
+
+footer{
+background:#1B5E20;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>EcoMaquetas</h1>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Proyectos</a>
+<a href="#">Materiales</a>
+<a href="#">Galería</a>
+<a href="#">Contacto</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h2>Maquetas con Materiales Reciclados</h2>
+
+<p>Proyecto estudiantil que promueve el reciclaje, la creatividad y el cuidado del medio ambiente.</p>
+
+<a href="#" class="boton">Conocer más</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">Nuestros Proyectos</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a">
+<h3>Casas Ecológicas</h3>
+<p>Construidas con cartón, papel reciclado y botellas plásticas.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f">
+<h3>Puentes</h3>
+<p>Elaborados con palitos de helado y materiales reutilizados.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+<h3>Ciudades Sostenibles</h3>
+<p>Maquetas que representan comunidades amigables con el ambiente.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">Materiales Utilizados</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📦 Cartón</h3>
+<p>Cajas recicladas para estructuras.</p>
+</div>
+
+<div class="card">
+<h3>🥤 Botellas</h3>
+<p>Plástico reutilizado para decorar.</p>
+</div>
+
+<div class="card">
+<h3>📰 Papel</h3>
+<p>Periódicos y revistas recicladas.</p>
+</div>
+
+<div class="card">
+<h3>🪵 Palitos</h3>
+<p>Palitos de helado y madera reciclada.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">Galería</h2>
+
+<div class="galeria">
+
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+
+<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7">
+
+<img src="https://images.unsplash.com/photo-1513258496099-48168024aec0">
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Proyecto Estudiantil - EcoMaquetas</h3>
+
+<p>Promoviendo el reciclaje y la creatividad mediante la elaboración de maquetas con materiales reutilizables.</p>
+
+</footer>
+
+</body>
+</html>
